@@ -1,0 +1,115 @@
+/* Color Palette
+# - #F5F5F5 Off white (body)
+# - #3A3F44 Grey (header, footer)
+# - #FFFFFF White (work)
+# - #E8E8E8 Light grey (education)
+*/
+
+/* Global styles 
+------------------------------------*/
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+body {
+    background-color: #F5F5F5;
+    color: #1C1C1C;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+
+/* Header & Footer 
+------------------------------------*/
+header, footer {
+    background-color: #3A3F44;
+    color: #FFFFFF;
+}
+
+header h1, header h2{
+    margin: 0;
+}
+
+.profile-img {
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+}
+
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
+}
+
+/* Added some style to the links for better visibility */
+a {
+    color: #B03045;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #D14B5E;
+    text-decoration: underline;
+}
+
+
+/* Work Experience
+------------------------------------*/
+.work {
+    background-color: #FFFFFF;
+    color: #1C1C1C;
+}
+
+
+/* Education
+------------------------------------*/
+.education {
+    background-color: #DCDCDC;
+    color: #1C1C1C;
+}
