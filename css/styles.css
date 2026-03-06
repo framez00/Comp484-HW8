@@ -16,7 +16,7 @@ html {
 }
 
 .navbar {
-    background-color: white;
+    background-color: #E8E8E8;
     position: fixed;
     text-align: center;
     width: 100%;
@@ -87,7 +87,7 @@ header h1, header h2{
 }
 
 header{
-    padding-top: 30px; /*fixed spacing between nav bar and header*/
+    padding-top: 40px; /*fixed spacing between nav bar and header*/
 }
 
 .profile-img {
