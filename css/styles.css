@@ -129,4 +129,11 @@ a:hover {
 .education {
     background-color: #DCDCDC;
     color: #1C1C1C;
+
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+                url(../images/code.jpg);
+    background-repeat: no-repeat;/* no repeated image */
+    background-size: cover; /* to make it fit the entire page */
+    background-position: center;
+    background-attachment: fixed;
 }
